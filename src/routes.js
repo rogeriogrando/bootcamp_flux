@@ -8,7 +8,7 @@ export default function Rotes() {
   return (
     <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/card" component={Cart} />
+      <Route path="/cart" component={Cart} />
     </Switch>
   );
 }
